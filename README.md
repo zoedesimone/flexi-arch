@@ -1,21 +1,16 @@
 # FlexiArch
 
-Code and data for the paper [FlexiArch: A Computational Tool to Assess the Longevity of Buildings through Flexibility by Zoe De Simone, Tingxin Zheng, Saleh Kalantari,Tong Bill Xu](TODO). Dataset linked [here](TODO).
+Code and data for the paper FlexiArch: A Computational Tool to Assess the Longevity of Buildings through Flexibility by Zoe De Simone, Tingxin Zheng, Saleh Kalantari,Tong Bill Xu. Dataset linked [here](https://github.com/zoedesimone/flexi-arch/tree/main/data).
 
 # Summary
-Architectural flexibility is a crucial aspect of creating sustainable built environments, yet there are limited tools to evaluate it during the design process. This paper presents FlexiArch, a computational tool that assesses the flexibility of 3D residential architecture models during iterative and generative design. FlexiArch consolidates flexibility parameters from literature into 11 actionable flexibility performance indicators that are calculated within the Rhinoceros 3D & Grasshopper CAD environment. Upon connecting a 3D CAD model to FlexiArch, the tool outputs a flexibility score for each indicator and a total flexibility score for the floor plan to guide the design process towards flexible designs.
-
-FlexiArch builds on a growing body of literature linking adaptable design to sustainability and presents a computational method to automatically calculate a building's design flexibility. A weighting system was developed through consultation with experts, drawing from an extensive literature review of flexibility assessment frameworks. The tool provides immediate ratings without interrupting the design workflow and without requiring any additional setup or surveys.
-
-A survey was conducted to compare 237 architects' flexibility ratings with FlexiArch outputs across five floor plan designs. The computational approach demonstrated a much higher level of discrimination than the aggregated human architects who were unable to differentiate flexibility features, rating all designs essentially the same.
-
-FlexiArch is a valuable tool that encourages designers to consider building longevity and adaptability in their creative and analytical processes. It expands the current implementation repertoire of architectural sustainability analysis and can help reduce the frequency of demolition and new construction, the need for costly renovations, and the energetic expenditure of occupant relocation. As a computational tool that accepts working design plans as its input, FlexiArch can facilitate flexible designs without interrupting the design workflow, potentially making sustainable design more accessible and feasible for architects.
+The term “Flexibility” in architecture refers to the capability of a building to continuously alter its spatial arrangement to accommodate evolving demands. Architectural flexibility is a crucial aspect of creating sustainable built environments, yet there are limited tools to evaluate it during the design process. To fill this gap, we created a computational tool called “FlexiArch” that assesses the spatial Flexibility of residential floorplans. FlexiArch consolidates weighted Flexibility parameters identified from the research literature into 11 actionable performance indicators that are calculated within the Rhinoceros 3D & Grasshopper CAD environment. The tool provides immediate ratings without interrupting the design workflow, and it can be used as part of iterative and generative design processes. A validation study was conducted to compare 237 architects’ Flexibility ratings with FlexiArch outputs across five different floorplan designs, using a survey-based method. We found, somewhat surprisingly, that the aggregated human architects were unable to differentiate literature-based Flexibility features in the floorplans, rating all designs essentially the same. The computational approach, in contrast, demonstrated a much higher level of discrimination. These findings suggest that architectural designers may be insufficiently trained in understanding the importance of spatial Flexibility and how to achieve it. Tools such as FlexiArch can help fill this gap by providing robust quantitative feedback and encouraging designers to consider Flexibility issues. While more validation work is needed for FlexiArch, we conclude that such tools have an important role to play in expanding the current implementation repertoire of architectural sustainability analysis, potentially helping to reduce the frequency of demolition and new construction, the need for costly renovations, and the energy expenditure of occupant relocation. 
 
 # What you can find in this repositoty
-- FlexiArch Grasshopper components for Rhinoceros 3D
+- FlexiArch Grasshopper script for Rhinoceros 3D
+- 5 Floor Plans used to validate FlexiArch
+- A Rhino template to get started with FlexiArch
 - User survey dataset from 287 experienced architects on flexibility
-- Code to analyze the survey data used in our [paper](TODO)
 
 # Please cite us
-TODO
+
 
