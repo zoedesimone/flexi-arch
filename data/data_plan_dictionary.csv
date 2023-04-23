@@ -1,0 +1,16 @@
+﻿Variable,Description,Codes/Values
+ID,Unique Participant Identifier,Factor stored as a string
+Prof,Professional Experience,"Factor stored as a string,(No experience: no architectural or construction training,Somewhat experienced: architecture student,Very Experienced: architecture professional) "
+Plan,Floor Plan Number,"Numeric [1,5]"
+Factor_1,Structural Modularity,"Numeric [1,10]"
+Factor_2,Floor to Ceiling Height,"Numeric [1,10]"
+Factor_3,Geometrical Regularity of Plan,"Numeric [1,10]"
+Factor_4,Location of Technical Services,"Numeric [1,10]"
+Factor_5,Percentage and Orientation of Windows,"Numeric [1,10]"
+Factor_6,Access to Apartment (entrances),"Numeric [1,10]"
+Factor_7,Obstacles in Floor Plan,"Numeric [1,10]"
+Factor_8,Removable Building Elements,"Numeric [1,10]"
+Factor_9,Internal Mobile Partitions,"Numeric [1,10]"
+Factor_10,Percentage of Operable Windows,"Numeric [1,10]"
+Factor_11,Daylight Factor,"Numeric [1,10]"
+Total,Total Flexibility of Floor Plan,"Numeric [1,10]"
