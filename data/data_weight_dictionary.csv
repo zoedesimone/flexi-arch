@@ -11,7 +11,7 @@ Rating_Weight_7,Flexibility Factor Rating: Obstacles in Floor Plan,"Numeric [1,1
 Rating_Weight_8,Flexibility Factor Rating: Removable Building Elements,"Numeric [1,10]"
 Rating_Weight_9,Flexibility Factor Rating: Internal Mobile Partitions,"Numeric [1,10]"
 Rating_Weight_10,Flexibility Factor Rating: Percentage of Operable Windows,"Numeric [1,10]"
-Rating_Weight_11,Flexibility Factor Rating: Daylight Factor,"Numeric [1,10]"
+Rating_Weight_11,Flexibility Factor Rating: Daylight Availability,"Numeric [1,10]"
 ,,
 Ranking_Weight_1,Flexibility Factor Ranking: Structural Modularity,"Numeric [10,1]"
 Ranking_Weight_2,Flexibility Factor Ranking: Floor to Ceiling Height,"Numeric [10,1]"
@@ -23,4 +23,4 @@ Ranking_Weight_7,Flexibility Factor Ranking: Obstacles in Floor Plan,"Numeric [1
 Ranking_Weight_8,Flexibility Factor Ranking: Removable Building Elements,"Numeric [10,1]"
 Ranking_Weight_9,Flexibility Factor Ranking: Internal Mobile Partitions,"Numeric [10,1]"
 Ranking_Weight_10,Flexibility Factor Ranking: Percentage of Operable Windows,"Numeric [10,1]"
-Ranking_Weight_11,Flexibility Factor Ranking: Daylight Factor,"Numeric [10,1]"
+Ranking_Weight_11,Flexibility Factor Ranking: Daylight Availability,"Numeric [10,1]"
